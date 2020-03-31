@@ -1114,13 +1114,13 @@ section {
         max-width: 610px; }
       @media only screen and (max-width: 768px) {
         .home .home_container .home_title h2 {
-          font-size: 50px;
-          line-height: 50px;
+          font-size: 32px;
+          line-height: 32px;
           width: 100%;
           margin: 0 auto; }
           .home .home_container .home_title h2:before {
-            font-size: 50px;
-            line-height: 50px;
+            font-size: 32px;
+            line-height: 32px;
             left: calc(50% - 3px);
             top: 2px; } }
       @media only screen and (max-width: 539px) {
@@ -1195,6 +1195,17 @@ section {
             z-index: -1;
             left: calc(50% - 2px);
             display: none; } }
+      @media only screen and (max-width: 1280px) and (min-width: 480px) {
+        .home .home_container .home_title h2 {
+          font-size: 32px !important;
+          line-height: 32px !important;
+          width: 100%;
+          left: 0;
+          margin: 0 0 30px !important; }
+          .home .home_container .home_title h2:before {
+            font-size: 32px !important;
+            line-height: 32px !important;
+            display: none !important; } }
       .home .home_container .home_title h2 span {
         color: #DDCC0F;
         display: block; }
@@ -1227,17 +1238,15 @@ section {
         z-index: -1; }
         .home .home_container .home_title h3:before:before {
           max-width: none; }
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 1280px) and (min-width: 480px) {
         .home .home_container .home_title h3 {
-          font-size: 50px;
-          line-height: 50px;
-          width: 100%;
-          margin: 0 auto; }
+          font-size: 32px !important;
+          line-height: 32px !important;
+          width: 100%; }
           .home .home_container .home_title h3:before {
-            font-size: 50px;
-            line-height: 50px;
-            left: calc(50% - 3px);
-            top: 2px; } }
+            font-size: 32px !important;
+            line-height: 32px !important;
+            display: none !important; } }
       @media only screen and (max-width: 539px) {
         .home .home_container .home_title h3 {
           width: 290px;
